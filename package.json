@@ -1,0 +1,25 @@
+{
+  "name": "morse-code-translator",
+  "version": "1.0.0",
+  "description": "Morse code translator with tests",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalidhersi/Morse-code-translator.git"
+  },
+  "author": "khalid hersi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalidhersi/Morse-code-translator/issues"
+  },
+  "homepage": "https://github.com/khalidhersi/Morse-code-translator#readme",
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1"
+  }
+}
