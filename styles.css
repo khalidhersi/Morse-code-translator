@@ -10,14 +10,18 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 8em;
+  top: 2em;
 }
 .main .main__title {
-  margin: 4em 0 2em 0;
+  margin: 2em 0 3em 0;
   font-size: 2em;
 }
 .main .main__form {
   display: flex;
+}
+.main .main__form h2 {
+  text-align: center;
+  padding: 0.8em;
 }
 .main .main__form .main__input {
   margin-right: 5em;
