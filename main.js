@@ -1,6 +1,5 @@
 /* Translates 1 Letter at a time*/
 
-
 //DOM interactions
 const input = document.getElementById("input");
 const output = document.getElementById("output");
