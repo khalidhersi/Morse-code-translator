@@ -38,13 +38,13 @@ englishLetters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p
 
 // On click translate
 submit.addEventListener('click', () => {
+    output.value = ""
     for (let i = 0; i < input.value.length; i++ ){
         for (let j = 0; j < morseCodeLetters.length; j++){
-            if(input.value === englishLetters[j]){
-                output.value += morseCodeLetters[j]
+            if(input.value[i] === englishLetters[j]){
+                output.value = output.value + morseCodeLetters[j] + "/"
                 console.log(output.value)
             }
-            
         }
     }
 })
