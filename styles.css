@@ -29,11 +29,17 @@
 .main .main__form .main__input .input {
   font-size: 1.8em;
 }
+.main .main__form .main__input #input {
+  text-align: center;
+}
 .main .main__form .main__output {
   margin-left: 5em;
 }
 .main .main__form .main__output .output {
   font-size: 1.8em;
+}
+.main .main__form .main__output #output {
+  text-align: center;
 }
 .main #submit {
   padding: 0.4em;
