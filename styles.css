@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 8em;
+}
+.main .main__title {
+  margin: 4em 0 2em 0;
+  font-size: 2em;
+}
+.main .main__form {
+  display: flex;
+}
+.main .main__form .main__input {
+  margin-right: 5em;
+}
+.main .main__form .main__input .input {
+  font-size: 1.8em;
+}
+.main .main__form .main__output {
+  margin-left: 5em;
+}
+.main .main__form .main__output .output {
+  font-size: 1.8em;
+}
+.main #submit {
+  padding: 0.4em;
+  font-size: 3em;
+}
