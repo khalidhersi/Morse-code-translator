@@ -3,107 +3,89 @@
   padding: 0;
   margin: 0;
   text-align: center;
+
 }
 
+body{
+  display: block;
+
+  width: fit-content;
+}
 .main {
   display: flex;
+  
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 2em;
+  top: 7em;
+
+  
 
   .main__h1__title {
-    margin: 0 0 0.3em 0;
+    position: relative;
+    text-align: center;
+    bottom: 1.3em;
     font-size: 5em;
-  }
-  .main__h2__title {
-    font-size: 3em;
-    color: blue;
   }
 
   .main__form {
     display: flex;
+    background-color: cornflowerblue;
+height: 30vh;
+width: fit-content;
+    text-align: center;
     h2 {
-      text-align: center;
-      padding: 0.8em;
+
     }
     .main__input {
-      margin-right: 5em;
-
+      padding: 3em 1em;
+      width: 80%;
       .input {
         font-size: 1.8em;
+
       }
       #input {
-        text-align: center;
+        background-color: rgb(183, 208, 255);
+        border-radius: 20px;
       }
     }
 
     .main__output {
-      margin-left: 5em;
+      width: 80%;
+      padding: 3em 1em;
 
       .output {
         font-size: 1.8em;
       }
       #output {
-        text-align: center;
+        background-color: rgb(183, 208, 255);
+        border-radius: 20px;
       }
     }
   }
   #submit {
     padding: 0.2em;
     font-size: 2.5em;
+    background-color: rgb(183, 208, 255);
+position: relative;
+bottom: 3em;
+border-radius: 20px;
   }
 }
 
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 2em;
-    
-    .section__h2__title {
-      font-size: 3em;
-      color: blue;
-    }
+
+
+@media screen and (min-width: 900px) {
   
-    .form2 {
-      display: flex;
-      h2 {
-        text-align: center;
-        padding: 0.8em;
-      }
-      .input2 {
-  
-        .input2 {
-          font-size: 1.8em;
-        }
-        #input2 {
-          text-align: center;
-        }
-      }
-  
-      .output2 {
-  
-        .output2 {
-          font-size: 1.8em;
-        }
-        #output2 {
-          text-align: center;
-        }
-      }
-    }
-    #submit2 {
-      padding: 0.2em;
-      font-size: 2.5em;
-      }
+  .main {
+    max-height: 100vh;
+    width: 170%;
+
+
+  &__form{
+    width: 100%;
   }
-  
-  .line {
-    height: 3px;
-    background-color: black;
-    position: relative;
-    top: 1.9em;
-  }
+
+}
+}

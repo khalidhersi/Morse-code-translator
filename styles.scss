@@ -1,2 +1,9 @@
 @import "./assets/_main";
 @import "./assets/_typography";
+
+body{
+    width: fit-content;
+
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(95, 145, 252));
+background-repeat: repeat;
+}

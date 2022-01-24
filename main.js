@@ -26,18 +26,18 @@ submit.addEventListener('click', () => {
     }
 })
 
-submit2.addEventListener('click', () => {
-    output2.value = ""
-    for (let i = 0; i < englishLetters.length; i++ ){
-        for (let j = 0; j < englishLetters.length; j++){
-            if(input2.value[i] === morseCodeLetters[j]){
-                output2.value = output2.value + englishLetters[j] + "/"
-                console.log(output.value)
-            }
+// submit2.addEventListener('click', () => {
+//     output2.value = ""
+//     for (let i = 0; i < englishLetters.length; i++ ){
+//         for (let j = 0; j < englishLetters.length; j++){
+//             if(input2.value[i] === morseCodeLetters[j]){
+//                 output2.value = output2.value + englishLetters[j] + "/"
+//                 console.log(output.value)
+//             }
 
-        }
-    }
-})
+//         }
+//     }
+// })
 
 
 
